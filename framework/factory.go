@@ -4,6 +4,8 @@ import (
 	"fmt"
 
 	"github.com/fatih/color"
+	"github.com/pyaesone17/poc-dynamodb-adaptor/dynamodb"
+	"github.com/pyaesone17/poc-mongodb-adaptor/mongodb"
 )
 
 // DataAdaptor is source
@@ -15,6 +17,17 @@ type DataAdaptor interface {
 type dataAdaptor struct {
 	client  DataAdaptor
 	version string
+}
+
+// BuildDataAdaptor is building adaptor
+func BuildDataAdaptor(dbtype string) DataAdaptor {
+	var adaptor DataAdaptor
+	if dbtype == "mongodb" {
+		adaptor = mongodb.NewRepository()
+	}
+
+	adaptor = dynamodb.NewRepository()
+	return NewDataSource(adaptor)
 }
 
 func (dr dataAdaptor) Put(id string, data interface{}) {
