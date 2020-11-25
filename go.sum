@@ -67,6 +67,12 @@ github.com/pkg/errors v0.9.1/go.mod h1:bwawxfHBFNV+L2hUp1rHADufV3IMtnDRdf1r5NINE
 github.com/pmezard/go-difflib v1.0.0/go.mod h1:iKH77koFhYxTK1pcRnkKkqfTogsbg7gZNVY4sRDYZ/4=
 github.com/pyaesone17/poc-dynamodb-adaptor v0.0.1 h1:xH1M4/dasgOSAe6Wo/C477TMpQgBbkLzqBoNztYB4+U=
 github.com/pyaesone17/poc-dynamodb-adaptor v0.0.1/go.mod h1:XY/GaOjUNveX5KNcjzDDHO3PnUc7xfdRa4gTZyNzLI8=
+github.com/pyaesone17/poc-dynamodb-adaptor v0.0.2 h1:KN1Ypr5bJdp61GVTb1O5itJ0v1yqzRmuRS4Rsj9N0PA=
+github.com/pyaesone17/poc-dynamodb-adaptor v0.0.2/go.mod h1:XY/GaOjUNveX5KNcjzDDHO3PnUc7xfdRa4gTZyNzLI8=
+github.com/pyaesone17/poc-dynamodb-adaptor v0.0.3 h1:av9x+LlIlnA7snxzk65WIYS2mqxsNsuW8kvCbQbWta8=
+github.com/pyaesone17/poc-dynamodb-adaptor v0.0.3/go.mod h1:XY/GaOjUNveX5KNcjzDDHO3PnUc7xfdRa4gTZyNzLI8=
+github.com/pyaesone17/poc-dynamodb-adaptor v0.0.4 h1:Mw5V3tbHvNOwQzV3ZWQ04QilPaurk3dtaZhkmm6jUqw=
+github.com/pyaesone17/poc-dynamodb-adaptor v0.0.4/go.mod h1:XY/GaOjUNveX5KNcjzDDHO3PnUc7xfdRa4gTZyNzLI8=
 github.com/pyaesone17/poc-mongodb-adaptor v0.0.1 h1:8JzGoIkNnLIH3s/oMiApudOcMO+5SXzGZCCUVlDrf+I=
 github.com/pyaesone17/poc-mongodb-adaptor v0.0.1/go.mod h1:UYgXy6nZDjvKi8j11koPYmIxGLmQVRyLJ9OAGiNscYg=
 github.com/rogpeppe/go-internal v1.1.0/go.mod h1:M8bDsm7K2OlrFYOpmOWEs/qY81heoFRclV5y23lUDJ4=
